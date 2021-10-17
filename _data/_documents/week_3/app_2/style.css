@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    80% {
+        transform: translateX(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+section {
+    min-width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, rgba(43, 98, 191, 0.4), rgba(14, 69, 143, 1)),
+        url('./img/pic_1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.logo {
+    height: 60px;
+}
+
+.logo:hover {
+    transform: rotateY(180deg);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 60px;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 60px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    text-align: center;
+    color: #f0f0f0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top: 50px;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    transition: all .2s;
+}
+
+h1:hover {
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: 10px 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.description-container {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.description:hover {
+    transform: rotateY(180deg);
+}
+
+.description {
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    transform: ;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: inline-block;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 23px;
+    border: 1px solid #fff;
+    padding: 0 24px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #4f4f4f;
+    background-color: #fff;
+    transition: all.2s;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    animation: moveInBottom .3s ease-out 0.75s;
+    animation-fill-mode: backwards;
+    margin-top: 20px;
+}
+
+.transparent {
+    background-color: transparent;
+    border: solid 1px #fff;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.button:hover {
+    transform: translateY(-5px);
+    opacity: 0.8;
+}
+
+.logout {
+    background-color: transparent;
+    border: solid 1px #fff;
+    border-radius: 0;
+    color: #fff;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}

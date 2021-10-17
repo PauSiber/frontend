@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.container{
+  width: 800px;
+  height: 400px;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: scroll;
+  overflow-x: hidden;
+  animation: background 5s linear infinite
+}
+
+.square{
+  height: 80px;
+  background-color: lightgrey;
+  margin: 10px;
+  animation: bigger 5s ease-in-out infinite;
+}
+
+@keyframes bigger{
+  0%{
+    width: 10px;
+  }
+  50%{
+    background: url(https://is3-ssl.mzstatic.com/image/thumb/Purple30/v4/9b/22/9b/9b229b6a-b51f-ee24-0bdf-6477e1ac9bae/source/512x512bb.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  100%{
+    width: 310px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px 0 black;
+    background: url(https://wallup.net/wp-content/uploads/2016/01/61138-Sauron-The_Eye_of_Sauron-The_Lord_of_the_Rings-748x486.jpg);
+    transform: scale(1.8);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid darkgrey;
+    transform: rotateZ(180deg);
+  }
+}
+
+@keyframes background {
+  0%{
+    background-color: grey;
+  }
+  50%{
+    background-color: blue;
+  }
+  100%{
+    background-color: red;
+  }
+}
