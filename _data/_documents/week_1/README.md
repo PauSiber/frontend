@@ -2,9 +2,14 @@
 
 **Amaç :** Front-end'in ne olduğunu, HTML ve CSS kavramlarını öğreneceğiz. Sonrasında en temel HTML etiketlerinin ne olduğunu ve bunları stillendirmeyi öğreneceğiz.
 
-**Yazarlar :** [**hazalsilayaprak**](https://github.com/hazalsilayaprak) **&&** [**aykutsahinler**](https://github.com/aykutsahinler)
+**Yazarlar :** [**hazalsilayaprak**](https://github.com/hazalsilayaprak) **&&** [**aykutsahinler**](https://github.com/aykutsahinler) **&&** [**altaysimsek**](https://github.com/altaysimsek) **&&** [**ufukcankurt**](https://github.com/ufukcankurt)
 
 ---
+
+<p align="center">
+	<img alt="html-tag" src="img/html-css-js.png" width="500"
+  style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
+</p>
 
 ## HTML(Hyper Text Markup Language) Nedir?
 HTML bir programlama dili değildir. Aslında Microsoft Word gibi belgeleri düzenleme ve biçimlendirmeye yarar. Arama motorlarına web sitesi hakkında bilgi verir. Web sayfalarının hazırlanmasını sağlar.
@@ -12,7 +17,6 @@ HTML bir programlama dili değildir. Aslında Microsoft Word gibi belgeleri düz
 #### HTML neler sunar?
 
 Görsel, yazı gibi şeylerin web sitesine yerleştirilmesini sağlar.
-
 
 ### HTML Tag'leri
 
@@ -68,7 +72,7 @@ Sayfamıza dışarıdan bir dosya dahil etmek istiyorsak bu etiket içine yazar�
 #### `<body>` etiketinin içine yazılan başlıca etiketler nelerdir?
 
 #### `<p>`
-Sayfada bulunan paragarflar, cümleler, kısaca yazıların yazıldığı etikettir.
+Sayfada bulunan paragraflar, cümleler, kısaca yazıların yazıldığı etikettir.
 
 #### `<h1>, <h2>, ... ,<h6>`
 Sayfamızda başlık olarak geçen yazıları temsil eder. Önem sırasına göre h1 den h6 ya kadar gider.
@@ -128,18 +132,14 @@ table, th, td {
   border: 1px solid black;
 }
 ```
-#### `<form>`
-<p align="center">
-	<img alt="table" src="img/form.png" width="500"
-  style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
-</p>
+
 
 ## CSS Nedir?
 "Cascading Style Sheets" in kısaltmasıdır. Sitemizde var olan HTML etiketlerini şekillendirmemize olanak sağlayan dildir.
 
 ### HTML elementlerine neden class verilir?
 
-HTML taglarından istediğimiz olana erişebilmek için class verilir.
+Tanımlamış olduğumuz HTML etiketlerinden hernangi birine erişebilmek için class verilir.
 
 ### Id ile class arasındaki fark nedir?
 
@@ -183,14 +183,6 @@ HTML sayfamızda `<head>` elementlerinin arasında `<style>` elementi kullanarak
 #### Stilleri CSS dosyasından çağırmak
 
 Herhangi bir not alma uygulamasından (atom, sublime, notepad++, not defteri) CSS kod yapısına uygun bir şekilde yazılır ve kaydedilir daha sonra HTML dosyamızda <head> etiketi arasına <link> etiketi açılı ve href="" kısmına CSS dosyamızın uzantısı eklenir.
-
-#### CSS'te flex nedir?
-
-Flex sitenin yapısının şekillendirme özelliğidir. Site içerisindeki araçları yatay ve dikeyde kolaylıkla düzenlemek ve hizalamak için kullanılabilecek en iyi CSS yöntemidir.
-
-#### Flex kullanımı nasıldır?
-
-Flex, bir kapsayıcı eleman niteliğindedir ve elemana ait iç elemanlarla etkileşim halindedir. Flex display özelliğinin parametresi şeklinde kullanılır. Flex'i uygulayabilmek için bir tane kapsayıcı eleman ve ona ait iç elemanlarımız olması gereklidir. Kapsayıcı elemana display: flex özelliği verildiğinde kullanıma hazır olur.
 
 ---
 
