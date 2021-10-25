@@ -18,7 +18,15 @@ Position özelliğini, elementlerimize "top, right, bottom, left" özelliklerini
 
 ## Flexbox Nedir?
 
+Flexbox genel olarak sayfa düzenimizi daha kolay oluşturmak için kullanılır ve yazıldığı etiketi esnek hale getirir.
 
+`display: flex` - Flex bir container tanımlamamızı sağlar.
+`flex-direction` - Flexbox yapısının yönünü belirlememizi sağlar.
+`flex-wrap` - Flex içerisindeki her element varsıyalan olarak tek bir satıra sığdırılır. Flex-wrap flexbox yapısını birden fazla satırda kullanmamızı sağlar.
+`justify-content` - Flex'in yönü doğrultusund hizalama yapmamızı sağlar.
+`align-items` - Flex'in ana yönünü dik kesen eksende hizalama yapmamızı sağlar.
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 ## Form Yapısı Nedir? 
 
 <br> <br>
