@@ -6,8 +6,8 @@
 | # | İçerik | Uygulama | 
 |:-----:|:------:|:--------:|
 | **Hafta 1** | [**`- HTML ve CSS kavramlarına giriş,`**<br>**`- HTML tagleri,`**<br>](_data/_documents/week_1/README.md) | **[`- Altay'ın yaptığı uygulama,`](https://codepen.io/asimsek/pen/mdMPGJg)**<br>**[`- Ufuk'un yaptığı uygulama`](https://codepen.io/ufukcankurt/pen/yLoVEYM?editors=1100)**  |
-| **Hafta 2** | [**`- Position ve Flexbox nedir ?`**<br>**`- Form yapısı`**<br>](_data/_documents/week_2/README.md) | [**`Kaynak Kodu`**](_data/_examples/week_2/) |
-| **Hafta 3** | | |
+| **Hafta 2** | [**`- Position yapısı nedir?`**<br>](_data/_documents/week_2/README.md) | [**`Kaynak Kodu`**](_data/_examples/week_2/) |
+| **Hafta 3** |   | |
 
 
 
