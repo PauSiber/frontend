@@ -1,0 +1,331 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+header{
+    background-color: black;
+}
+
+.content{
+    width: 1170px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .logo{
+    max-width: 100px;
+}
+
+.content .logo:hover img {
+    transform: scale(2);
+}
+
+.last-li-nav:hover{
+    
+}
+
+.content .logo img {
+    width: 135px;
+}
+
+.content nav{
+
+}
+
+.content nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.content nav ul li{
+    color: #fff;
+}
+
+.content nav ul li:hover,
+#nav-profile-arrow{
+    color: #1ed760;
+    transition: .1s ease-in-out;
+}
+
+.content nav ul li a{
+    display: block;
+    padding: 28px 17px;
+    color: currentColor;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.separator{
+    display: block;
+    width: 1px;
+    height: 20px;
+    background-color: #fff;
+    margin: 0 10px;
+    margin-top: 27px;
+}
+
+.last-li-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-pp{
+    width: 40px;
+    height: 40px;
+    margin: auto 6px auto 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#nav-profile-arrow{
+    width: 12px;
+    fill: currentColor;
+}
+
+#nav-profile-arrow:hover{
+    fill: white;
+}
+.banner{ 
+     
+    background-color: rgb(41, 65, 171); 
+    background-image: url(https://www-growth.scdn.co/static/home/bursts-mobile.svg); 
+    background-position: right 40% center; 
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    height: 100vh; 
+    text-align: center; 
+    display: flex; 
+    -webkit-box-align: center; 
+    align-items: center; 
+    flex-direction: column; 
+    -webkit-box-pack: center; 
+    justify-content: center; 
+    overflow: hidden; 
+    color:white 
+} 
+ 
+ .heading{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    padding: 0 360px; 
+    width: 100%; 
+    height: 100%; 
+    color: #1ed760; 
+} 
+ 
+.heading h1 { 
+    font-size: 104px; 
+    letter-spacing: -5px; 
+    font-weight: 800; 
+    margin: 0;
+    margin-bottom: 10px; 
+ 
+} 
+ 
+.heading p { 
+    font-size: 18px; 
+    font-weight: 500; 
+    margin: 0; 
+    margin-bottom: 40px; 
+} 
+ 
+.heading button { 
+    border: none; 
+    padding: 15px 40px; 
+    border-radius: 50px; 
+    background-color: #1ed760; 
+    color: #2941AB; 
+    text-transform: uppercase; 
+    font-weight: 600; 
+}
+/*
+.banner .content{
+
+}
+
+.banner .content h1{
+    box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px 0px 0.67em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: -1.75px;
+    line-height: 56px;
+    color: var(--text-bright-accent,#117a37);
+}
+
+.banner .content p{
+    box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px 0px 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: var(--text-bright-accent,#117a37);
+}
+
+.banner .content .p a{
+    box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    border: 0px;
+    border-radius: 500px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    touch-action: manipulation;
+    transition-duration: 33ms;
+    transition-property: background-color, border-color, color, box-shadow, filter, transform;
+    user-select: none;
+    vertical-align: middle;
+    transform: translate3d(0px, 0px, 0px);
+    padding: 0px;
+    align-self: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.banner .content .p a div{
+
+} */
+
+footer{
+    background-color: #000;
+    width: 100%;
+    padding: 70px 0 ;
+}
+
+footer .foot-content{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .foot-content .foot-first-section{
+    width: 100%;
+    display: flex;
+}
+
+footer .foot-content .foot-first-section .foot-logo {
+    width: 18%;
+}
+
+footer .foot-content .foot-first-section .foot-logo img{
+    width: 150px;
+}
+
+footer .foot-content .foot-first-section .links{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    color: #919496;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: .08em;
+    text-transform: uppercase;;
+}
+
+footer .foot-content .foot-first-section .links a{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+}
+
+footer .foot-content .foot-first-section .links a:hover{
+    color: #1ed760;
+    transition: .1s ease-in-out;
+}
+
+.social{
+    width: 28%;
+    padding-left: 125px;
+}
+
+.social a{
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 30px;
+    line-height: 35px;
+    color: #fff;
+    background-color: #222326;
+    border-radius: 50%;
+    text-align: center;
+    transition: .3s ease-in-out;
+}
+
+.foot-second-section{
+    display: flex;
+    justify-content: end;
+    margin-top: 100px;
+}
+
+.foot-second-section a {
+    color: #919496;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.foot-second-section a i {
+    margin-right: 10px;
+}
+
+.foot-third-section
+{
+    display: flex;
+    justify-content: space-between;
+    color: #919496;
+    margin: 10px 0 20px 0;
+}
+
+.foot-third-section .ts-left{
+    
+}
+
+.foot-third-section .ts-left a{
+    display: inline-block;
+    font-size: 12px;
+    padding: 5px 5px;
+    color: currentColor;
+    text-decoration: none;
+}
+
+.foot-third-section .ts-right{
+    color: currentColor;
+    font-size: 12px;
+}
