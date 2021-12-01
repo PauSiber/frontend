@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <form action="">
+            <div class="form-row">
+                <label for="ad">İsim</label>
+                <input type="text" name="isim" id="isim" placeholder="Lütfen İsminizi Girin" required>
+            </div>
+    
+            <div class="form-row">
+                <label for="tel">Telefon</label>
+                <input type="tel" name="tel" id="tel" placeholder="Lütfen Telefon Numaranızı Girin" required>
+            </div>
+    
+            <div class="form-row">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Lütfen E-mail Adresinizi Girin" required>
+            </div>
+    
+            <div class="form-row">
+                <label for="mesaj">Mesaj</label>
+                <textarea name="mesaj" id="mesaj" cols="30" rows="10"
+                placeholder="Lütfen mesajınızı girin."></textarea>
+            </div>
+    
+            <div class="form-row">
+                <label for="sehir">Yaşadığın Şehir</label>
+                <select name="sehir" id="">
+                    <option value="34">İstanbul</option>
+                    <option value="20">Denizli</option>
+                    <option value="35">İzmir</option>
+                </select>
+            </div>
+    
+            <div class="form-row">
+                <p>En Sevdiğiniz Renk</p>
+                <div class="renkler">
+                <label><input type="radio" name="renk" id="">Kırmızı</label>
+                <label><input type="radio" name="renk" id="">Siyah</label>
+                <label><input type="radio" name="renk" id="">Beyaz</label>
+                </div>
+            </div>
+    
+            <div class="form-row">
+                <button type="reset">Sıfırla</button>
+                <button type="submit">Gönder</button>
+            </div>
+        </form>
+    </body>
+</html>
