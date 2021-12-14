@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Prata&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Prata', serif;
+}
+
+body{
+    background-color: #fff4e0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.content{
+    width: 70%;
+    background-color: blue;
+}
+
+.first-section{
+    background-color: rgb(6,32,35);
+    color: #FFF4E0;
+    padding: 13%;
+}
+
+.first-section h1{
+    font-size: 90px;
+    margin-bottom: 56px;
+    line-height: 90px;
+}
+
+.first-section p{
+    width: 80%;
+    line-height: 28px;
+}
+
+.second-section{
+    background-color: #fff;
+    padding: 13%;
+}
+
+.second-section h2{
+    font-size: 50px;
+}
+
+.line{
+    height: 100px;
+    width: 100%;
+    margin: 30px 0;
+    border-style: solid;
+    border-width: 0 0 0 2px;
+}
+
+.second-section .first-p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.second-section .second-p{
+    line-height: 34px;
+}
+
+.third-section{
+    background-color: rgb(6,32,35);
+    color: #FFF4E0;
+    padding: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section .image-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.third-section .image-card p{
+    letter-spacing: 3.5px;
+}
+
+.third-section .image-card img{
+    width: 75%;
+}
+
+.fourth-section{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth-section img{
+    margin: -2px 0;
+}
+
+.fourth-section .header{
+    width: 100%;
+    padding: 13% 13% 4% 13%;
+    
+}
+
+.fourth-section .header h2{
+    font-size: 50px;
+    color: rgb(6,32,35);
+    line-height: 1;
+}
+
+.fourth-section .galery-one{
+    width: 100%;
+    height: auto;
+}
+
+.fourth-section .galery-two{
+    display: flex;
+    flex-direction: row;
+}
+
+.fourth-section .galery-two .left-side{
+    width: 50%;
+}
+
+.fourth-section .galery-two .right-side{
+    width: 50%;
+}
+
+.fourth-section .galery-two .right-side .picture-top{
+
+}
+
+.fourth-section .galery-two .right-side .picture-bottom{
+
+}
+
+.fourth-section .more{
+    width: 100%;
+    padding: 25px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6,32,35);
+    margin-top: -2px;
+    color: #fff4e0;
+    cursor: pointer;
+}
+
+.fifth-section{
+    padding: 13%;
+    background-color: #fff;
+    color: rgb(6,32,35);
+}
+
+.timeline-wrapper{
+    border-left: 2px solid black;
+    padding-left: 34px;
+}
+
+.timeline-wrapper ul{
+    list-style-type: none;
+}
+.timeline-wrapper ul li{
+    margin-bottom: 34px;
+    position: relative;
+}
+.timeline-wrapper ul li div h2::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border: 10px solid white;
+    position: absolute;
+    left: -55px;
+    border-radius: 50%;
+}
+
+.timeline-wrapper ul li div h2::after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 5px solid black;
+    position: absolute;
+    left: -55px;
+    top: 0;
+    border-radius: 50%;
+}
+
+.sixth-section{
+    background-color: rgb(6,32,35);
+    padding: 13%;
+}
+
+.sixth-section .bottom{
+
+}
+
+.sixth-section .bottom .items{
+
+}
+
+.sixth-section .bottom .items .skill-holder{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 22px;
+}
+
+.sixth-section .bottom .items .skill-holder .skill{
+    width: calc(100% - 70px);
+    background-color: #fff4e0;
+    height: 12px;
+    position: relative;
+}
+
+.sixth-section .bottom .items .skill-holder .skill .skill-text{
+    color: #fff4e0;
+    font-size: 10px;
+    line-height: 100%;
+    font-weight: 500;
+    letter-spacing: 3.5px;
+    position: relative;
+    z-index: 1;
+    transform: translate(10px, -5px);
+    display: inline-block;
+}
+
+.sixth-section .bottom .items .skill-holder .skill .skill-fill{
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 10%;
+    height: 22px;
+    transition: width .7s;
+    background-color: #114e53;
+}
+
+.sixth-section .bottom .items .skill-holder .skill-num{
+    font-size: 22px;
+    color: #fff4e0;
+    margin-left: 30px;
+}
+
+.first-skill{
+    width: 62% !important;
+}
+.second-skill{
+    width: 84% !important;
+}
+.third-skill{
+    width: 78% !important;
+}
+.fourth-skill{
+    width: 92% !important;
+}
+.fifth-skill{
+    width: 85% !important;
+}
+.first-skill{
+    width: 62% !important;
+}
+
+.aside{
+    position: sticky;
+    width: 30%;
+    height: 200px;
+    top: 0;
+    margin-left: 24px;
+}
+
+.aside .main-profile{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.aside .main-profile a{
+    margin-top: 24px;
+    color: rgb(6,32,35);
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.aside .main-profile a:hover{
+    border-bottom: .5px solid black;
+}
+
+.aside .main-profile img{
+    width: 100%;
+}
+
