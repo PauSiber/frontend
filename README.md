@@ -24,7 +24,7 @@
 
 | # | İçerik | Kaynak Kod |
 |:-----:|:------:|:--------:|
-| **Hafta 1** | [**`- Javascript'in Temelleri`**]() | [**`- Kaynak Kod`**]()|
+| **Hafta 1** | [**`- Javascript'in Temelleri`**](_jsdata/_documents/week_1/README.md) | [**`- Kaynak Kod`**](_jsdata/_examples/week_1/)|
 | **Hafta 2** | [**`- JS ile HTML Öğelerini Güncelleme`**]() | [**`- Kaynak Kod`**]() |
 | **Hafta 3** | **[`- Projeye Giriş`]()** | [**`- Kaynak Kod`**]() |
 | **Hafta 4** | **[`-`]()** | [**`- Kaynak Kod`**]() |
