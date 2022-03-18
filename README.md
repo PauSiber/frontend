@@ -33,42 +33,10 @@
 
 ---
 
-  
-
 **Eğitmen İletişim Bilgileri:**
 
-  
-
-**Ufuk Can Kurt**
-
-  
-
-- [**Telegram**](https://t.me/ufukcankurt/)
-
-- [**Instagram**](https://www.instagram.com/ufukcankurt_/)
-
-- [**Twitter**](https://twitter.com/ufukcankurt_/)
-
-  
-
-**Altay Şimşek**
-
-  
-
-- [**Telegram**](https://t.me/altitans/)
-
-- [**Instagram**](https://www.instagram.com/altay.simsekk/)
-
-- [**Twitter**](https://twitter.com/altitans/)
-
-  
-
-**Sezgi Altan**
-
-  
-
-- [**Telegram**](https://t.me/devsezgi/)
-
-- [**Instagram**](https://www.instagram.com/sezgi.dev/)
-
-- [**Twitter**](https://twitter.com/devsezgi/)
+| **Ufuk Can Kurt** | **Altay Şimşek**  |  **Sezgi Altan**|
+|--|--|--|
+| [**Telegram**](https://t.me/ufukcankurt/) | [**Telegram**](https://t.me/altitans/) | [**Telegram**](https://t.me/devsezgi/) |
+| [**Instagram**](https://www.instagram.com/ufukcankurt_/)| [**Instagram**](https://www.instagram.com/altay.simsekk/) | [**Instagram**](https://www.instagram.com/sezgi.dev/) |
+| [**Twitter**](https://twitter.com/ufukcankurt_/) | [**Twitter**](https://twitter.com/altitans/) | [**Twitter**](https://twitter.com/altitans/) |
