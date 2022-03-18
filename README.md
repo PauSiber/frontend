@@ -2,6 +2,7 @@
 
 **Kurs Eğitmenleri:** [**altaysimsek**](https://github.com/altaysimsek) && [**ufukcankurt**](https://github.com/ufukcankurt) && [**sezgialtan**](https://github.com/Szqii)
 
+  
 
 ---
 
@@ -23,7 +24,7 @@
 
 | # | İçerik | Kaynak Kod |
 |:-----:|:------:|:--------:|
-| **Hafta 1** | [**`- Javascript'in Temelleri`**]() | [**`- Kaynak Kod`**]()|
+| **Hafta 1** | [**`- Javascript'in Temelleri`**](_jsdata/_documents/week_1/README.md) | [**`- Kaynak Kod`**](_jsdata/_examples/week_1/)|
 | **Hafta 2** | [**`- JS ile HTML Öğelerini Güncelleme`**]() | [**`- Kaynak Kod`**]() |
 | **Hafta 3** | **[`- Projeye Giriş`]()** | [**`- Kaynak Kod`**]() |
 | **Hafta 4** | **[`-`]()** | [**`- Kaynak Kod`**]() |
@@ -31,6 +32,7 @@
 | **Hafta 6** | **[`-`]()** | [**`- Kaynak Kod`**]() |
 
 ---
+
 **Eğitmen İletişim Bilgileri:**
 
 | **Ufuk Can Kurt** | **Altay Şimşek**  |  **Sezgi Altan**|
