@@ -20,7 +20,6 @@
 ---
 **Dönem 2**
 
-**Kaynak: [30 Days of Javascript](https://github.com/Asabeneh/30-Days-Of-JavaScript)**
 
 | # | İçerik | Kaynak Kod |
 |:-----:|:------:|:--------:|
