@@ -21,6 +21,7 @@ main{
 }
 main .title{
     color: #632ca7;
+    letter-spacing: 4px;
 }
 
 main .container{
@@ -29,7 +30,7 @@ main .container{
     width: 50%;
     height: 500px;
     display: flex;
-    background-color: white; 
+    background-color: white;
 }
 
 main .container .left-menu, .right-menu{
@@ -37,11 +38,9 @@ main .container .left-menu, .right-menu{
     display: flex;
     flex-direction: column;
     padding: 20px;
-    justify-content: space-around;
-}
-
-main .container .right-menu{
     align-items: center;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .container .right-menu{
@@ -62,7 +61,7 @@ main .container .left-menu .btn-wrapper, .right-menu .btn-wrapper{
     width: 100%;
 }
 
-main .container .left-menu .btn-wrapper button, .right-menu .btn-wrapper button{
+main .container .left-menu button, .right-menu .btn-wrapper button{
     padding: 10px;
     border: 1px solid #DFC5FE;
     border-radius: 5px;
@@ -75,7 +74,8 @@ main .container .left-menu .btn-wrapper button, .right-menu .btn-wrapper button{
     justify-content: space-around;
 }
 
-main .container .left-menu .btn-wrapper button{
+
+main .container .left-menu button{
     background-color: #632ca7;
     color: white;
 }
@@ -85,16 +85,21 @@ main .container .right-menu .btn-wrapper button{
     color: #632ca7;
 }
 
-main .container .left-menu .btn-wrapper button:hover, .right-menu .btn-wrapper button:hover{
+main .container button:hover{
     opacity: 1;
 }
 
+button:active{
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(4px);
+}
 
 main .container .right-menu .money-input{
     padding: 10px;
     border-radius: 5px;
     width: 50%;
     border: none;
-    box-shadow: 0 0 20px 0px #632ca7;;
+    box-shadow: 0 0 20px 0px #632ca7;
+    outline: none;
 
 }
