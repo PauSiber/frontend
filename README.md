@@ -24,8 +24,8 @@
 | # | İçerik | Kaynak Kod |
 |:-----:|:------:|:--------:|
 | **Hafta 1** | [**`- Javascript'in Temelleri`**](_jsdata/_documents/week_1/README.md) | [**`- Kaynak Kod`**](_jsdata/_examples/week_1/)|
-| **Hafta 2** | [**`- JS ile HTML Öğelerini Güncelleme`**]() | [**`- Kaynak Kod`**]() |
-| **Hafta 3** | **[`- Projeye Giriş`]()** | [**`- Kaynak Kod`**]() |
+| **Hafta 2** | [**`- Isınma Projesi - Banka Uygulaması -`**](_jsdata/_documents/week_2/README.md) | [**`- Kaynak Kod`**](_jsdata/_examples/week_2/) |
+| **Hafta 3** | **[`- Ana Projeye Giriş`]()** | [**`- Kaynak Kod`**]() |
 | **Hafta 4** | **[`-`]()** | [**`- Kaynak Kod`**]() |
 | **Hafta 5** | **[`-`]()** | [**`- Kaynak Kod`**]() |
 | **Hafta 6** | **[`-`]()** | [**`- Kaynak Kod`**]() |
