@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;800&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+.makeItGreen{
+    color: #85bb65;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 150px;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #DFC5FE;
+}
+main .title{
+    color: #632ca7;
+}
+
+main .container{
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0px #632ca7;;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    background-color: white; 
+}
+
+main .container .left-menu, .right-menu{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+main .container .right-menu{
+    align-items: center;
+}
+
+.container .right-menu{
+    background-color: #DFC5FE;
+    border-radius: 0 10px 10px 0;
+}
+
+main .container .left-menu .span-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+}
+
+main .container .left-menu .btn-wrapper, .right-menu .btn-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+main .container .left-menu .btn-wrapper button, .right-menu .btn-wrapper button{
+    padding: 10px;
+    border: 1px solid #DFC5FE;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 600;
+    opacity: .8;
+    transition: .3 ease-in-out;
+    cursor: pointer;
+    width: 40%;
+    justify-content: space-around;
+}
+
+main .container .left-menu .btn-wrapper button{
+    background-color: #632ca7;
+    color: white;
+}
+
+main .container .right-menu .btn-wrapper button{
+    background-color: white;
+    color: #632ca7;
+}
+
+main .container .left-menu .btn-wrapper button:hover, .right-menu .btn-wrapper button:hover{
+    opacity: 1;
+}
+
+
+main .container .right-menu .money-input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 50%;
+    border: none;
+    box-shadow: 0 0 20px 0px #632ca7;;
+
+}
