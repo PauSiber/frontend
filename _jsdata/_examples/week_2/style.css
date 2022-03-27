@@ -1,105 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;800&display=swap");
 * {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Kanit', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
 }
 
-.makeItGreen{
-    color: #85bb65;
+.makeItGreen {
+  color: #85bb65;
 }
 
-main{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 150px;
-    flex-direction: column;
-    width: 100%;
-    height: 100vh;
-    background-color: #DFC5FE;
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 150px;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: #dfc5fe;
 }
-main .title{
-    color: #632ca7;
-    letter-spacing: 4px;
-}
-
-main .container{
-    border-radius: 10px;
-    box-shadow: 0 0 20px 0px #632ca7;;
-    width: 50%;
-    height: 500px;
-    display: flex;
-    background-color: white;
+main .title {
+  color: #632ca7;
+  letter-spacing: 4px;
 }
 
-main .container .left-menu, .right-menu{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
+main .container {
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0px #632ca7;
+  width: 50%;
+  height: 500px;
+  display: flex;
+  background-color: white;
 }
 
-.container .right-menu{
-    background-color: #DFC5FE;
-    border-radius: 0 10px 10px 0;
+main .container .left-menu,
+.right-menu {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
 }
 
-main .container .left-menu .span-wrapper{
-    display: flex;
-    flex-direction: column;
-    padding: 0 50px;
+.container .right-menu {
+  background-color: #dfc5fe;
+  border-radius: 0 10px 10px 0;
 }
 
-main .container .left-menu .btn-wrapper, .right-menu .btn-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+main .container .left-menu .span-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
 }
 
-main .container .left-menu button, .right-menu .btn-wrapper button{
-    padding: 10px;
-    border: 1px solid #DFC5FE;
-    border-radius: 5px;
-    background-color: white;
-    font-weight: 600;
-    opacity: .8;
-    transition: .3 ease-in-out;
-    cursor: pointer;
-    width: 40%;
-    justify-content: space-around;
+main .container .left-menu .btn-wrapper,
+.right-menu .btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
-
-main .container .left-menu button{
-    background-color: #632ca7;
-    color: white;
+main .container .left-menu button,
+.right-menu .btn-wrapper button {
+  padding: 10px;
+  border: 1px solid #dfc5fe;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: 600;
+  opacity: 0.8;
+  transition: 0.3 ease-in-out;
+  cursor: pointer;
+  width: 40%;
+  justify-content: space-around;
 }
 
-main .container .right-menu .btn-wrapper button{
-    background-color: white;
-    color: #632ca7;
+main .container .left-menu button {
+  background-color: #632ca7;
+  color: white;
 }
 
-main .container button:hover{
-    opacity: 1;
+main .container .right-menu .btn-wrapper button {
+  background-color: white;
+  color: #632ca7;
 }
 
-button:active{
-    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
-    transform: translateY(4px);
+main .container button:hover {
+  opacity: 1;
 }
 
-main .container .right-menu .money-input{
-    padding: 10px;
-    border-radius: 5px;
-    width: 50%;
-    border: none;
-    box-shadow: 0 0 20px 0px #632ca7;
-    outline: none;
+button:active {
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  transform: translateY(4px);
+}
 
+main .container .right-menu .money-input {
+  padding: 10px;
+  border-radius: 5px;
+  width: 50%;
+  border: none;
+  box-shadow: 0 0 20px 0px #632ca7;
+  outline: none;
 }
