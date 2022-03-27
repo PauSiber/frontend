@@ -1,42 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Pausiber | Bank App</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <div class="title">
-            <h1>PAUSIBER BANK APP</h1>
+      <div class="title">
+        <h1>PAUSIBER BANK APP</h1>
+      </div>
+      <div class="container">
+        <div class="left-menu">
+          <div class="span-wrapper">
+            <span class="active-account">Account Name:</span>
+            <span class="total-money"
+              >Total Balance: <span class="makeItGreen">$</span>
+            </span>
+          </div>
+          <button class="add-account-btn" onclick="createAccount()">
+            Add Account
+          </button>
+          <div class="btn-wrapper">
+            <button class="change-account-btn" onclick="changeAccount()">
+              Change Account
+            </button>
+            <button class="sign-out-btn">Sign Out</button>
+          </div>
         </div>
-        <div class="container">
-            <div class="left-menu">
-                <div class="span-wrapper">
-                    <span class="active-account">Account Name:</span>
-                    <span class="total-money">Total Balance: <span class="makeItGreen">$</span> </span> 
-                </div>
-                <button class="add-account-btn" onclick="createAccount()">Add Account</button>
-                <div class="btn-wrapper">
-                    <button class="change-account-btn" onclick="changeAccount()">Change Account</button>
-                    <button class="sign-out-btn">Sign Out</button>
-                </div>
-            </div>
-            <div class="right-menu">
-                <input type="number" class="money-input" name="money" placeholder="Enter Value">
-                <span>Balance after transaction: 123 <span class="makeItGreen">$</span> </span> <!-- Make it dynamic -->
-                <div class="btn-wrapper">
-                    <button class="deposit-money-btn">Deposit</button>
-                    <button class="withdraw-money-btn">Withdraw</button>
-                </div>
-            </div>
+        <div class="right-menu">
+          <input
+            type="number"
+            class="money-input"
+            name="money"
+            placeholder="Enter Value"
+          />
+          <span
+            >Balance after transaction: 123 <span class="makeItGreen">$</span>
+          </span>
+          <!-- Make it dynamic -->
+          <div class="btn-wrapper">
+            <button class="deposit-money-btn">Deposit</button>
+            <button class="withdraw-money-btn">Withdraw</button>
+          </div>
         </div>
-        <footer>
-            Pausiber | Designed with ❤️
-        </footer>
+      </div>
+      <footer>Pausiber | Designed with ❤️</footer>
     </main>
-</body>
-<script src="./script.js"></script>
+  </body>
+  <script src="./script.js"></script>
 </html>
