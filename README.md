@@ -1,12 +1,7 @@
-   
-
 **Kurs Eğitmenleri:** [**altaysimsek**](https://github.com/altaysimsek) && [**ufukcankurt**](https://github.com/ufukcankurt) && [**sezgialtan**](https://github.com/Szqii)
-
-  
 
 ---
 
-  
 **Dönem 1**
 | # | İçerik | Uygulama |
 |:-----:|:------:|:--------:|
@@ -16,26 +11,25 @@
 | **Hafta 4** | **[`- Spotify anasayfa web tasarımı`<br>](_data/_documents/week_4/README.md)** |[**`- Kaynak Kodu `**](_data/_examples/week_4) |
 | **Workshop** | **[`- Portfolyo web tasarımı`<br>](_data/_documents/workshop/README.md)** |[**`- Kaynak Kodu `**](_data/_examples/workshop) |
 
-
 ---
+
 **Dönem 2**
 
-
-| # | İçerik | Kaynak Kod |
-|:-----:|:------:|:--------:|
-| **Hafta 1** | [**`- Javascript'in Temelleri`**](_jsdata/_documents/week_1/README.md) | [**`- Kaynak Kod`**](_jsdata/_examples/week_1/)|
+|      #      |                                       İçerik                                       |                   Kaynak Kod                    |
+| :---------: | :--------------------------------------------------------------------------------: | :---------------------------------------------: |
+| **Hafta 1** |       [**`- Javascript'in Temelleri`**](_jsdata/_documents/week_1/README.md)       | [**`- Kaynak Kod`**](_jsdata/_examples/week_1/) |
 | **Hafta 2** | [**`- Isınma Projesi - Banka Uygulaması -`**](_jsdata/_documents/week_2/README.md) | [**`- Kaynak Kod`**](_jsdata/_examples/week_2/) |
-| **Hafta 3** | [**`- Banka Uygulaması Devamı`**]() | [**`- Kaynak Kod`**]() |
-| **Hafta 4** | **[`-`]()** | [**`- Kaynak Kod`**]() |
-| **Hafta 5** | **[`-`]()** | [**`- Kaynak Kod`**]() |
-| **Hafta 6** | **[`-`]()** | [**`- Kaynak Kod`**]() |
+| **Hafta 3** |       [**`- Banka Uygulaması Devamı`**](_jsdata/_documents/week_3/README.md)       | [**`- Kaynak Kod`**](_jsdata/_examples/week_2/) |
+| **Hafta 4** |                                    **[`-`]()**                                     |             [**`- Kaynak Kod`**]()              |
+| **Hafta 5** |                                    **[`-`]()**                                     |             [**`- Kaynak Kod`**]()              |
+| **Hafta 6** |                                    **[`-`]()**                                     |             [**`- Kaynak Kod`**]()              |
 
 ---
 
 **Eğitmen İletişim Bilgileri:**
 
-| **Ufuk Can Kurt** | **Altay Şimşek**  |  **Sezgi Altan**|
-|--|--|--|
-| [**Telegram**](https://t.me/ufukcankurt/) | [**Telegram**](https://t.me/altitans/) | [**Telegram**](https://t.me/devsezgi/) |
-| [**Instagram**](https://www.instagram.com/ufukcankurt_/)| [**Instagram**](https://www.instagram.com/altay.simsekk/) | [**Instagram**](https://www.instagram.com/sezgi.dev/) |
-| [**Twitter**](https://twitter.com/ufukcankurt_/) | [**Twitter**](https://twitter.com/altitans/) | [**Twitter**](https://twitter.com/devsezgi/) |
+| **Ufuk Can Kurt**                                        | **Altay Şimşek**                                          | **Sezgi Altan**                                       |
+| -------------------------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------- |
+| [**Telegram**](https://t.me/ufukcankurt/)                | [**Telegram**](https://t.me/altitans/)                    | [**Telegram**](https://t.me/devsezgi/)                |
+| [**Instagram**](https://www.instagram.com/ufukcankurt_/) | [**Instagram**](https://www.instagram.com/altay.simsekk/) | [**Instagram**](https://www.instagram.com/sezgi.dev/) |
+| [**Twitter**](https://twitter.com/ufukcankurt_/)         | [**Twitter**](https://twitter.com/altitans/)              | [**Twitter**](https://twitter.com/devsezgi/)          |

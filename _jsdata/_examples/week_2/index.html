@@ -10,24 +10,23 @@
   <body>
     <main>
       <div class="title">
-        <h1>PAUSIBER BANK APP</h1>
+        <h1>BANK APP</h1>
+        <h1>Pausiber</h1>
       </div>
       <div class="container">
         <div class="left-menu">
           <div class="span-wrapper">
-            <span class="active-account">Account Name:</span>
-            <span class="total-money"
-              >Total Balance: <span class="makeItGreen">$</span>
-            </span>
+            <span class="active-account">Account Name: -</span>
+            <span class="total-money">Total Balance: -</span>
           </div>
-          <button class="add-account-btn" onclick="createAccount()">
-            Add Account
-          </button>
+
           <div class="btn-wrapper">
-            <button class="change-account-btn" onclick="changeAccount()">
-              Change Account
+            <button class="add-account-btn" onclick="createAccount()">
+              ADD ACCOUNT
             </button>
-            <button class="sign-out-btn">Sign Out</button>
+            <button class="change-account-btn" onclick="changeAccount()">
+              CHANGE ACCOUNT
+            </button>
           </div>
         </div>
         <div class="right-menu">
@@ -36,18 +35,23 @@
             class="money-input"
             name="money"
             placeholder="Enter Value"
+            onkeyup="updateAfterTransactionText()"
           />
-          <span
-            >Balance after transaction: 123 <span class="makeItGreen">$</span>
-          </span>
-          <!-- Make it dynamic -->
+          <div class="after-transaction-text-container">
+            <span id="deposit-text">Balance after deposit: -</span>
+            <span id="withdraw-text">Balance after withdraw: -</span>
+          </div>
           <div class="btn-wrapper">
-            <button class="deposit-money-btn">Deposit</button>
-            <button class="withdraw-money-btn">Withdraw</button>
+            <button class="deposit-money-btn" onclick="deposit()">
+              DEPOSIT
+            </button>
+            <button class="withdraw-money-btn" onclick="withdraw()">
+              WITHDRAW
+            </button>
           </div>
         </div>
       </div>
-      <footer>Pausiber | Designed with ❤️</footer>
+      <footer>2022 | Coded by Pausiber with ☕️</footer>
     </main>
   </body>
   <script src="./script.js"></script>
