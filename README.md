@@ -1,4 +1,4 @@
-**Kurs Eğitmenleri:** [**altaysimsek**](https://github.com/altaysimsek) && [**ufukcankurt**](https://github.com/ufukcankurt) && [**sezgialtan**](https://github.com/Szqii)
+**Kurs Eğitmenleri:** [**altaysimsek**](https://github.com/altaysimsek) && [**ufukcankurt**](https://github.com/ufukcankurt) && [**sezgialtan**](https://github.com/Szqii) && [**damlaervakasal**](https://github.com/damlaervakasal) && [**denizok**](https://github.com/DenizOk20)
 
 ---
 
