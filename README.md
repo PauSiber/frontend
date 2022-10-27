@@ -33,3 +33,5 @@
 | [**Telegram**](https://t.me/ufukcankurt/)                | [**Telegram**](https://t.me/altitans/)                    | [**Telegram**](https://t.me/sezgiwtf/)                |
 | [**Instagram**](https://www.instagram.com/ufukcankurt_/) | [**Instagram**](https://www.instagram.com/altay.simsekk/) | [**Instagram**](https://www.instagram.com/sezgi.wtf/) |
 | [**Twitter**](https://twitter.com/ufukcankurt_/)         | [**Twitter**](https://twitter.com/altitans/)              | [**Twitter**](https://twitter.com/sezgiwtf/)          |
+
+>2021-2022 ve 2022-2023 dönemi kaynaklarını içerir.
