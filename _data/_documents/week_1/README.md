@@ -103,7 +103,7 @@ Listenin elemanlarının yazıldığı etikettir.
 Sayfamızda sanal bir kutu oluşturduğumuz etikettir.
 
 #### `<marquee>`
-Sayfada metnin otoamatik bir şekilde sağa, sola, yukarı veya aşağı hareket etmesini sağlar.
+Sayfada metnin otomatik bir şekilde sağa, sola, yukarı veya aşağı hareket etmesini sağlar.
 
 #### `<table>`
 <p align="center">
