@@ -102,6 +102,9 @@ Listenin elemanlarının yazıldığı etikettir.
 #### `<div>` !!
 Sayfamızda sanal bir kutu oluşturduğumuz etikettir.
 
+#### `<marquee>`
+Sayfada metnin otoamatik bir şekilde sağa, sola, yukarı veya aşağı hareket etmesini sağlar.
+
 #### `<table>`
 <p align="center">
 	<img alt="table" src="img/table.png" width="500"
