@@ -1,6 +1,27 @@
-**Kurs Eğitmenleri:** [**altaysimsek**](https://github.com/altaysimsek) && [**ufukcankurt**](https://github.com/ufukcankurt) && [**sezgialtan**](https://github.com/Szqii) && [**damlaervakasal**](https://github.com/damlaervakasal) && [**denizok**](https://github.com/DenizOk20)
 
 ---
+
+> Bu repo, 2021 - 2022 - 2023 yılı frontend eğitim kaynaklarını içerir.
+
+# 2023 
+
+**Kurs Eğitmenleri:** [**semaozkan**](https://github.com/semaozkan) && [**ilknurdogan**](https://github.com/ilknurdgn) && [**isinnurgunay**](https://github.com/isinnur) && [**eliftoros**](https://github.com/eliftrs) && [**sametaydinhan**](https://github.com/SametAydinhan) && [**beyzagur**](https://github.com/beyzgur) && [**denizok**](https://github.com/DenizOk20)
+
+**Dönem 1**
+| # | HTML - CSS  | JAVASCRIPT |
+|:-----:|:------:|:--------:|
+| **Hafta 1** | [**`- HTML ve CSS kavramlarına giriş -`**<br>](_data/_documents/week_1/README.md) [**`- Uygulama Kaynak Kodları -`**<br>]()|[**`- JavaScript'e giriş -`**<br>]() [**`- Uygulama Kaynak Kodları -`**<br>]()|
+| **Hafta 2** | - | - |
+| **Hafta 3** | - | - |
+| **Hafta 4** | - | - |
+| **Hafta 5** | - | - |
+| **Hafta 6** | - | - |
+
+---
+
+# 2021 - 2022
+
+**Kurs Eğitmenleri:** [**altaysimsek**](https://github.com/altaysimsek) && [**ufukcankurt**](https://github.com/ufukcankurt) && [**sezgialtan**](https://github.com/Szqii) && [**damlaervakasal**](https://github.com/damlaervakasal) && [**denizok**](https://github.com/DenizOk20)
 
 **Dönem 1**
 | # | İçerik | Uygulama |
@@ -35,4 +56,3 @@
 | [**Instagram**](https://www.instagram.com/ufukcankurt_/) | [**Instagram**](https://www.instagram.com/altay.simsekk/) | [**Instagram**](https://www.instagram.com/sezgi.wtf/) |
 | [**Twitter**](https://twitter.com/ufukcankurt_/)         | [**Twitter**](https://twitter.com/altitans/)              | [**Twitter**](https://twitter.com/sezgiwtf/)          |
 
->2021-2022 ve 2022-2023 dönemi kaynaklarını içerir.
