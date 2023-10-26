@@ -150,7 +150,7 @@ Id tektir, bir kere kullanılır. Class birçok etikette kullanılabilir.
 
 ### CSS nasıl yazılır?
 
-#### HTML etiketinin içinde stil belirtme
+#### HTML etiketinin içinde stil belirtme | Inline
 
 Etiketin içine style="" yazdığımız anda " " içine yazılacak bütün CSS kodları o etikete ait olur.
 
@@ -158,7 +158,7 @@ Etiketin içine style="" yazdığımız anda " " içine yazılacak bütün CSS k
 <div class="box" style="width: 200px; height: 200px; background-color: #ddd;"></div>
 ```
 
-#### HTML sayfasında CSS yazmak
+#### HTML sayfasında CSS yazmak | Internal
 
 HTML sayfamızda `<head>` elementlerinin arasında `<style>` elementi kullanarak stiller yaratmamız mümkündür.
 
@@ -183,7 +183,7 @@ HTML sayfamızda `<head>` elementlerinin arasında `<style>` elementi kullanarak
 </body>
 ```
 
-#### Stilleri CSS dosyasından çağırmak
+#### Stilleri CSS dosyasından çağırmak | External
 
 Herhangi bir not alma uygulamasından (atom, sublime, notepad++, not defteri) CSS kod yapısına uygun bir şekilde yazılır ve kaydedilir daha sonra HTML dosyamızda <head> etiketi arasına <link> etiketi açılı ve href="" kısmına CSS dosyamızın uzantısı eklenir.
 
