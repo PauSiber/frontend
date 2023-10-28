@@ -10,7 +10,7 @@
 **Dönem 1**
 | # | HTML - CSS  | JAVASCRIPT |
 |:-----:|:------:|:--------:|
-| **Hafta 1** | [**`- HTML ve CSS kavramlarına giriş -`**<br>](_data/_documents/week_1/README.md) [**`- Uygulama Kaynak Kodları -`**<br>]()|[**`- JavaScript'e giriş -`**<br>]() [**`- Uygulama Kaynak Kodları -`**<br>]()|
+| **Hafta 1** | [**`- HTML ve CSS kavramlarına giriş -`**<br>](_data/2021-2022/_documents/week_1/README.md) [**`- Uygulama Kaynak Kodları -`**<br>]()|[**`- JavaScript'e giriş -`**<br>]() [**`- Uygulama Kaynak Kodları -`**<br>]()|
 | **Hafta 2** | - | - |
 | **Hafta 3** | - | - |
 | **Hafta 4** | - | - |
@@ -26,12 +26,12 @@
 **Dönem 1**
 | # | İçerik | Uygulama |
 |:-----:|:------:|:--------:|
-| **Hafta 1** | [**`- HTML ve CSS kavramlarına giriş,`**<br>**`- HTML tagleri,`**<br>](_data/_documents/week_1/README.md) | **[`- Altay'ın yaptığı uygulama,`](https://codepen.io/asimsek/pen/mdMPGJg)**<br>**[`- Ufuk'un yaptığı uygulama`](https://codepen.io/ufukcankurt/pen/yLoVEYM?editors=1100)** |
-| **Hafta 2** | [**`- Position yapısı nedir?`**<br>](_data/_documents/week_2/README.md) | [**`Kaynak Kodu`**](_data/_examples/week_2/) |
-| **Hafta 3** | **[`- Flexbox nedir ?`<br>`- Form yapısı nedir?`<br>](_data/_documents/week_3/README.md)** |[**`- Kaynak Kodu - Flexbox,`**](_data/_examples/week_3/Flex) **<br>** [**`- Kaynak Kodu - Form Yapısı`**](_data/_examples/week_3/Form) |
-| **Hafta 4** | **[`- Spotify anasayfa web tasarımı`<br>](_data/_documents/week_4/README.md)** **[`- Twitter profile web tasarımı`<br>](_data/_documents/week_4_2022/README.md)** |[**`- Spotify Kaynak Kodu `**](_data/_examples/week_4) <br> [**`- Twitter Kaynak Kodu `**](_data/_examples/week_4_2022)|
-| **Workshop** | **[`- Portfolyo web tasarımı`<br>](_data/_documents/workshop/README.md)** |[**`- Kaynak Kodu `**](_data/_examples/workshop) |
-| **Workshop 2022** | **[`- Portfolyo web tasarımı`<br>](_data/_documents/workshop_2022/README.md)** |[**`- Kaynak Kodu `**](_data/_examples/workshop_2022) |
+| **Hafta 1** | [**`- HTML ve CSS kavramlarına giriş,`**<br>**`- HTML tagleri,`**<br>](_data/2021-2022/_documents/week_1/README.md) | **[`- Altay'ın yaptığı uygulama,`](https://codepen.io/asimsek/pen/mdMPGJg)**<br>**[`- Ufuk'un yaptığı uygulama`](https://codepen.io/ufukcankurt/pen/yLoVEYM?editors=1100)** |
+| **Hafta 2** | [**`- Position yapısı nedir?`**<br>](_data/2021-2022/_documents/week_2/README.md) | [**`Kaynak Kodu`**](_data/2021-2022/_examples/week_2/) |
+| **Hafta 3** | **[`- Flexbox nedir ?`<br>`- Form yapısı nedir?`<br>](_data/2021-2022/_documents/week_3/README.md)** |[**`- Kaynak Kodu - Flexbox,`**](_data/2021-2022/_examples/week_3/Flex) **<br>** [**`- Kaynak Kodu - Form Yapısı`**](_data/2021-2022/_examples/week_3/Form) |
+| **Hafta 4** | **[`- Spotify anasayfa web tasarımı`<br>](_data/2021-2022/_documents/week_4/README.md)** **[`- Twitter profile web tasarımı`<br>](_data/2021-2022/_documents/week_4_2022/README.md)** |[**`- Spotify Kaynak Kodu `**](_data/2021-2022/_examples/week_4) <br> [**`- Twitter Kaynak Kodu `**](_data/2021-2022/_examples/week_4_2022)|
+| **Workshop** | **[`- Portfolyo web tasarımı`<br>](_data/2021-2022/_documents/workshop/README.md)** |[**`- Kaynak Kodu `**](_data/2021-2022/_examples/workshop) |
+| **Workshop 2022** | **[`- Portfolyo web tasarımı`<br>](_data/2021-2022/_documents/workshop_2022/README.md)** |[**`- Kaynak Kodu `**](_data/2021-2022/_examples/workshop_2022) |
 
 ---
 
@@ -39,9 +39,9 @@
 
 |      #      |                                       İçerik                                       |                   Kaynak Kod                    |
 | :---------: | :--------------------------------------------------------------------------------: | :---------------------------------------------: |
-| **Hafta 1** |       [**`- Javascript'in Temelleri`**](_jsdata/_documents/week_1/README.md)       | [**`- Kaynak Kod`**](_jsdata/_examples/week_1/) |
-| **Hafta 2** | [**`- Isınma Projesi - Banka Uygulaması -`**](_jsdata/_documents/week_2/README.md) | [**`- Kaynak Kod`**](_jsdata/_examples/week_2/) |
-| **Hafta 3** |       [**`- Banka Uygulaması Devamı`**](_jsdata/_documents/week_3/README.md)       | [**`- Kaynak Kod`**](_jsdata/_examples/week_2/) |
+| **Hafta 1** |       [**`- Javascript'in Temelleri`**](_jsdata/2021-2022/_documents/week_1/README.md)       | [**`- Kaynak Kod`**](_jsdata/2021-2022/_examples/week_1/) |
+| **Hafta 2** | [**`- Isınma Projesi - Banka Uygulaması -`**](_jsdata/2021-2022/_documents/week_2/README.md) | [**`- Kaynak Kod`**](_jsdata/2021-2022/_examples/week_2/) |
+| **Hafta 3** |       [**`- Banka Uygulaması Devamı`**](_jsdata/2021-2022/_documents/week_3/README.md)       | [**`- Kaynak Kod`**](_jsdata/2021-2022/_examples/week_2/) |
 | **Hafta 4** |                                    **[`-`]()**                                     |             [**`- Kaynak Kod`**]()              |
 | **Hafta 5** |                                    **[`-`]()**                                     |             [**`- Kaynak Kod`**]()              |
 | **Hafta 6** |                                    **[`-`]()**                                     |             [**`- Kaynak Kod`**]()              |
