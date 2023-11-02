@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+.app {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  background-color: #404249;
+  height: 100vh;
+}
+
+.searchbar {
+  margin: 20px 0 0 16px;
+}
+
+.searchbar input {
+  padding: 4px 30px;
+  border-radius: 15px 0 0 15px;
+  border: 0px;
+  transition: 0.3 ease-in-out;
+}
+
+.searchbar input::selection {
+  border: 1px solid black;
+}
+
+.searchbar button {
+  margin-left: 2px;
+  margin-right: 16px;
+  padding: 4px 15px;
+  border-radius: 0 15px 15px 0;
+  border: 0px;
+  cursor: pointer;
+  background-color: #5865f2;
+  color: white;
+  transition: 0.3s;
+}
+
+.searchbar button:hover {
+  background-color: #3444f1;
+}
+
+.searchbar button:active {
+  scale: 0.9;
+}
+
+.user {
+  display: flex;
+  margin: 24px 16px;
+  color: white;
+}
+
+.user .online {
+  color: rgb(36, 199, 36);
+}
+
+.user .offline {
+  color: rgb(228, 47, 47);
+}
+
+.image {
+  margin-right: 16px;
+  display: flex;
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1e1f22;
+}
+
+.header .header-img {
+  margin: 16px 16px 8px 16px;
+  display: flex;
+  overflow: hidden;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+
+.header .settings {
+  font-size: 20px;
+  margin: 24px;
+  color: white;
+}
+
+.header .settings i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.header .settings i:hover {
+  background-color: #323144;
+}
+
+.header .owner {
+  margin-top: 16px;
+  color: white;
+}
+
+.chat {
+  width: 67%;
+  background-color: #2e3035;
+}
+
+.chat header {
+  color: white;
+  background-color: #4c4d50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat img {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  margin: 0 20% 0 16px;
+}
