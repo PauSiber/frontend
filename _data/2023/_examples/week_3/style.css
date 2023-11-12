@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500&display=swap");
+
+body {
+  background-color: gray;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+form {
+  width: 360px;
+  display: inline-block;
+  background-color: white;
+  padding: 50px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  gap: 7px;
+}
+
+.form-row > input,
+select,
+button,
+textarea {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder,
+input[type="text"]::placeholder,
+textarea::placeholder {
+  color: red;
+}
+
+textarea::placeholder {
+  font-family: "Edu TAS Beginner", cursive;
+}
+
+// input::placeholder {
+//   color: red;
+//   font-size: 10px;
+// }
+
+textarea {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  min-height: 42px;
+  max-height: 200px;
+  resize: vertical;
+}
+
+.renkler label {
+  display: inline;
+}
+
+.renkler label + label {
+  margin-left: 20px;
+}

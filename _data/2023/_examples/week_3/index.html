@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <div class="form-row">
+        <label for="isim">İsim</label>
+        <input
+          type="text"
+          name="isim"
+          id="isim"
+          placeholder="İsmini Girin"
+          required
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="tel">Telefon</label>
+        <input
+          type="tel"
+          name="telefon"
+          id="tel"
+          placeholder="Telefon Numaranızı Girin"
+          required
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="mail">E-mail</label>
+        <input
+          type="email"
+          name="email"
+          id="mail"
+          placeholder="E-mail Adresinizi Girin"
+          required
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="mesaj">Mesaj</label>
+        <textarea
+          name="mesaj"
+          id="mesaj"
+          placeholder="Lütfen Mesajını Gir!"
+        ></textarea>
+      </div>
+
+      <div class="form-row">
+        <label for="sehir">Yaşadığın Şehir</label>
+        <select name="sehir" id="sehir">
+          <option value="0">Şehir Seçin</option>
+          <option value="20">Denizli</option>
+          <option value="34">İstanbul</option>
+          <option value="06">Ankara</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <p>En Sevdiğiniz Renk</p>
+        <div class="renkler">
+          <label for="">
+            <input type="radio" name="renk" value="kirmizi" /> Kırmızı
+          </label>
+          <label for="">
+            <input type="radio" name="renk" value="mavi" /> Mavi
+          </label>
+          <label for="">
+            <input type="radio" name="renk" value="Yeşil" /> Yeşil
+          </label>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
