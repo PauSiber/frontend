@@ -5,7 +5,7 @@
 
 # 2024
 
-**Kurs Eğitmenleri:** [**semaozkan**](https://github.com/semaozkan) && [**isinnurgunay**](https://github.com/isinnur) && [**beyzagur**](https://github.com/beyzgur)
+**Kurs Eğitmenleri:** [**semanurozkan**](https://github.com/semaozkan) && [**isinnurgunay**](https://github.com/isinnur) && [**beyzagur**](https://github.com/beyzgur) && [**SametAydinhan**](https://github.com/SametAydinhan)
 
 **Dönem 1**
 | # | HTML - CSS | JAVASCRIPT |
@@ -14,12 +14,13 @@
 | **Hafta 2** | [**`- Position Kavramı -`**<br>](_data/2021-2022/_documents/week_2/README.md) [**`- Uygulama Kaynak Kodları -`**<br>](_data/2023/_examples/week_2)|[**`- Fonksiyon ve Object Kavramı -`**<br>](_jsdata/2023/_documents/week_2/script.js) [**`- Uygulama Kaynak Kodları -`**<br>](_jsdata/2023/_examples/week_2)|
 | **Hafta 3** | [**`- Flexbox ve Form Kavramları -`**<br>](_data/2021-2022/_documents/week_3/README.md) [**`- Uygulama Kaynak Kodları -`**<br>](_data/2023/_examples/week_3)|[**`- DOM Kavramı -`**<br>](_jsdata/2023/_documents/week_3/README.md) [**`- Uygulama Kaynak Kodları -`**<br>](_jsdata/2023/_examples/week_3)|
 | **Hafta 4** | [**`- Film Kartları Uygulaması -`**<br>](_data/2024/_documents/week_4/README.md) [**`- Uygulama Kaynak Kodları -`**<br>](_data/2024/_examples/week_4)|[**`- Todo Uygulaması -`**<br>](_jsdata/2023/_examples/week_4) [**`- Uygulama Kaynak Kodları -`**<br>](_jsdata/2023/_examples/week_4)|
+| **Workshop** | [**`- Portfolio App -`**<br>](_data/2024/_documents/workshop/README.md) [**`- Uygulama Kaynak Kodları -`**<br>](_data/2024/_examples/workshop)|-|
 
 ---
 
 # 2023
 
-**Kurs Eğitmenleri:** [**semaozkan**](https://github.com/semaozkan) && [**ilknurdogan**](https://github.com/ilknurdgn) && [**isinnurgunay**](https://github.com/isinnur) && [**eliftoros**](https://github.com/eliftrs) && [**sametaydinhan**](https://github.com/SametAydinhan) && [**beyzagur**](https://github.com/beyzgur) && [**denizok**](https://github.com/DenizOk20)
+**Kurs Eğitmenleri:** [**semanurozkan**](https://github.com/semaozkan) && [**ilknurdogan**](https://github.com/ilknurdgn) && [**isinnurgunay**](https://github.com/isinnur) && [**eliftoros**](https://github.com/eliftrs) && [**sametaydinhan**](https://github.com/SametAydinhan) && [**beyzagur**](https://github.com/beyzgur) && [**denizok**](https://github.com/DenizOk20)
 
 **Dönem 1**
 | # | HTML - CSS | JAVASCRIPT |
