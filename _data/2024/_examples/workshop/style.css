@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+nav {
+  width: 100%;
+  height: 90px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.logo-container {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.nav-container ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-container ul .nav-link {
+  text-transform: capitalize;
+  border-bottom: 2px solid transparent;
+  transition: 0.2s all ease-in-out;
+}
+
+.nav-container ul .nav-link:hover {
+  border-bottom: 2px solid white;
+}
+
+main {
+  width: 100%;
+  height: calc(100% - 90px);
+  background-color: #ffdd55;
+  padding: 75px 75px 150px 50px;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.main-infos-container {
+  width: calc(100% - 600px);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-content {
+  margin-bottom: 50px;
+  margin-top: -200px;
+}
+
+.text-content h2 {
+  margin-bottom: 12px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.text-content span {
+  color: #474a57;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+.button-content {
+  display: flex;
+  gap: 20px;
+}
+
+.button-content .button {
+  cursor: pointer;
+  padding: 10px 34px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  box-shadow: 4px 4px 0 0 #eb7711bf;
+  transition: 0.3s all ease-in-out;
+}
+
+.button-content .button:hover {
+  box-shadow: -4px -4px 0 0 #eb7711bf;
+  animation: shake 0.3s 2 linear;
+}
+
+.main-image {
+  width: 500px;
+}
+
+.main-image img {
+  width: 100%;
+}
+
+.social-container {
+  position: absolute;
+  right: 25px;
+  top: 40%;
+}
+
+.social-container a .social-item {
+  font-size: 30px;
+  background-color: #fff;
+  margin-bottom: 5px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: 0.3s all ease-in-out;
+}
+
+.social-container a .instagram:hover {
+  background-color: #e4405f;
+  color: #fff;
+}
+
+.social-container a .twitter:hover {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+.social-container a .github:hover {
+  background-color: #171515;
+  color: #fff;
+}
+
+.social-container a .linkedin:hover {
+  background-color: #0a66c2;
+  color: #fff;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(10deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  75% {
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
